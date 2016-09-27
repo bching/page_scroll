@@ -42,7 +42,6 @@ body {
 }
 
 /* Door open */
-/*
 #left-door {
 	background-color: #ff9e2c;
 	width: 50%;
@@ -65,7 +64,6 @@ body {
 	transition: all 500ms ease-in-out;
 	transform: translateX(100%);
 }
-*/
 
 .modal-wrap {
 	max-width: 750px;
