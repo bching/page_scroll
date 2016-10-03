@@ -9,7 +9,6 @@ body {
 	background-color: #eee;
 }
 
-
 .background.closed{
 	position: fixed;
 	width: 100%;
@@ -67,35 +66,39 @@ body {
 }
 */
 
+/*
 .modal-wrap {
 	max-width: 750px;
 	margin 100px auto;
 }
-
 .modal-bodies {
 	position: relative;
 }
+*/
+
+/* Modal Specs */
 .modal-body {
 	width: 750px;
-	display: none;
+	max-width: 100%;
+	display: hidden;
 	padding: 40px 100px;
 	/*box-sizing: border-box;*/
 	opacity: 0;
 	background: pink;
-	width: 100%;
 	position: relative;
-	margin: 20px 20px;
+	margin: 0 auto;
 }
-.modal-body.modal-main.is-showing {
+.modal-body .modal-content.center-text {
+	text-align: center;
+}
+.modal-body#modal-main {
+	transform: translateY(300%);
+}
+.modal-body#modal-main.is-showing {
+	display: block;
 	opacity: 1;
-	transition-delay: 500ms;
 	transition: all 500ms ease-in-out, opacity 500ms ease-in-out;
-}
-.modal-body .center-text {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	/*margin-left: */
+	transform: translateY(100%);
 }
 
 

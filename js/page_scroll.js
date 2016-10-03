@@ -43,7 +43,6 @@ function slide(e){
 		
 		var modal_main = document.getElementById("modal-main");
 		modal_main.className += " is-showing";
-		modal_main.style.display = 'block';
 	} 
 }
 
