@@ -36,10 +36,10 @@ function slide(e){
 		var button = document.getElementById("enter");
 		button.style.display = 'none';
 
-		//var left_door = document.getElementById("left-door");
-		//var right_door = document.getElementById("right-door");
-		//left_door.className += " goLeft";
-		//right_door.className += " goRight";
+		var left_door = document.getElementById("left-door");
+		var right_door = document.getElementById("right-door");
+		left_door.className += " goLeft";
+		right_door.className += " goRight";
 		
 		var modal_main = document.getElementById("modal-main");
 		modal_main.className += " is-showing";
